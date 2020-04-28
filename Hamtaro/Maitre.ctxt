@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Maitre
+comment0.text=\r\n\ D\u00E9crivez\ votre\ classe\ Maitre\ ici.\r\n\r\n\ @author\ (votre\ nom)\r\n\ @version\ (un\ num\u00E9ro\ de\ version\ ou\ une\ date)\r\n
+comment1.params=
+comment1.target=Maitre()
+comment1.text=\r\n\ Constructeur\ d'objets\ de\ classe\ Maitre\r\n
+comment2.params=
+comment2.target=int\ getAge()
+comment3.params=number
+comment3.target=void\ setAge(int)
+comment4.params=
+comment4.target=java.lang.String\ getNom()
+comment5.params=name
+comment5.target=void\ setAge(java.lang.String)
+comment6.params=
+comment6.target=Nac\ getAnimal()
+comment7.params=nc
+comment7.target=void\ setAnimal(Nac)
+comment8.params=
+comment8.target=java.lang.String\ promener()
+numComments=9

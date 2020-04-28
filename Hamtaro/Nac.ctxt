@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Nac
+comment1.params=nom_\ nbrHeureSommeil_
+comment1.target=Nac(java.lang.String,\ int)
+comment1.text=\r\n\ Constructeur\ d'objets\ de\ classe\ Nac\r\n
+comment2.params=
+comment2.target=java.lang.String\ getNom()
+comment3.params=nom_
+comment3.target=void\ setNom(java.lang.String)
+comment4.params=
+comment4.target=int\ getNbrDodo()
+comment5.params=nbrHeureSommeil_
+comment5.target=void\ setNbrDodo(int)
+comment6.params=
+comment6.target=java.lang.String\ presentation()
+numComments=7

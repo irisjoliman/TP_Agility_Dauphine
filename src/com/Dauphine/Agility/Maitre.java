@@ -44,7 +44,14 @@ public class Maitre
         return(this.animaux);
     }
     public void setAnimal(ArrayList<Nac> nc){
-        this.animaux = nc;
+        if(nc != null) {
+            this.animaux = nc;
+            for (Nac puppy : this.animaux) {
+                if (!puppy.getMaitre().equals(this)) {
+                    puppy.setMaitre(this);
+                }
+            }
+        }
     }
 
     // ****** METHODES ****** //
@@ -59,9 +66,20 @@ public class Maitre
         boolean retour = false;
         if (obj!= null && (obj.getClass().equals(this.getClass()))){
             if (obj instanceof Maitre){
-                Maitre puppy = (Maitre)obj;
-                retour = this.nom.equals(puppy.getNom()) &&
-                        this.age == puppy.getAge() && this.animaux.equals(puppy.getAnimal());
+                Maitre maitre = (Maitre)obj;
+                if(maitre.getAnimal() == null && this.animaux==null){
+                    retour = this.nom.equals(maitre.getNom()) &&
+                            this.age == maitre.getAge();
+                }
+                else{
+                    if(maitre.getAnimal() == null || this.animaux == null){
+                        retour = false;
+                    }
+                    else{
+                        retour = this.nom.equals(maitre.getNom()) &&
+                                this.age == maitre.getAge() && this.animaux.equals(maitre.getAnimal());
+                    }
+                }
             }
 
         }
@@ -70,7 +88,18 @@ public class Maitre
 
     // Cette fonction ajoute un animal à la liste déjà existante
     public void addNac(Nac puppy) {
-        this.animaux.add(puppy);
+        if(! this.isNacInAnimals(puppy)) {
+            this.animaux.add(puppy);
+        }
+    }
+
+    public boolean isNacInAnimals(Nac puppy){
+        for (Nac mypuppy:this.animaux) {
+            if(puppy.equals(mypuppy)){
+                return(true);
+            }
+        }
+        return(false);
     }
 
     // Préciser qu'on doit modifier la méthode promener dans le rapport

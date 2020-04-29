@@ -20,18 +20,21 @@ public class Nac{
         this.nbrHeureSommeil = 0;
         this.maitre = null;
     }
-    // Ce constructeur permet de créer un animal possédant un maître à sa création
-    public Nac(String nom, int nbrHeureSommeil, Maitre maitre){
-        this.nom = nom;
-        this.nbrHeureSommeil = nbrHeureSommeil;
-        this.maitre = maitre;
-    }
     // Ce constructeur permet de créer un animal ne possédant pas de maître à sa création
     public Nac(String nom, int nbrHeureSommeil){
         this.nom = nom;
         this.nbrHeureSommeil = nbrHeureSommeil;
         this.maitre = null;
     }
+
+    // Ce constructeur permet de créer un animal possédant un maître à sa création
+    public Nac(String nom, int nbrHeureSommeil, Maitre maitre){
+        this.nom = nom;
+        this.nbrHeureSommeil = nbrHeureSommeil;
+        this.maitre = maitre;
+        maitre.addNac(this);
+    }
+
 
     // ****** ACCESSEURS ****** //
     public String getNom() {
@@ -66,8 +69,19 @@ public class Nac{
          if (obj!= null && (obj.getClass().equals(this.getClass()))){
             if (obj instanceof Nac){
                 Nac puppy = (Nac)obj;
-                retour = this.nom.equals(puppy.getNom()) &&
-                        this.nbrHeureSommeil == puppy.getNbrDodo() && this.maitre.equals(puppy.getMaitre());
+                if(puppy.getMaitre() == null && this.maitre == null){
+                    retour = this.nom.equals(puppy.getNom()) &&
+                            this.nbrHeureSommeil == puppy.getNbrDodo();
+                }
+                else {
+                    if(puppy.getMaitre() == null || this.maitre == null){
+                        retour = false;
+                    }
+                    else {
+                        retour = this.nom.equals(puppy.getNom()) &&
+                                this.nbrHeureSommeil == puppy.getNbrDodo() && this.maitre.equals(puppy.getMaitre());
+                    }
+                }
             }
         }
         return(retour);

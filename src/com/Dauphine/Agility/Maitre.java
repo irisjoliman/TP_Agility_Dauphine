@@ -81,11 +81,11 @@ public class Maitre
         if (obj!= null && (obj.getClass().equals(this.getClass()))){
             if (obj instanceof Maitre){
                 Maitre maitre = (Maitre)obj;
-                if(maitre.getAnimal().size() == 0 && this.animaux.size() == 0){
+                if(checkAnimalExistance(maitre) && checkAnimalExistance(this)){
                     retour = this.nom.equals(maitre.getNom()) && this.age == maitre.getAge();
                 }
                 else{
-                    if(maitre.getAnimal().size() == 0 || this.animaux.size() == 0){
+                    if(checkAnimalExistance(maitre) || checkAnimalExistance(this)){
                         retour = false;
                     }
                     else{
@@ -97,6 +97,10 @@ public class Maitre
 
         }
         return(retour);
+    }
+
+    private boolean checkAnimalExistance(Maitre maitre) {
+        return maitre.getAnimal().size() == 0;
     }
 
     // Cette fonction ajoute un animal à la liste déjà existante

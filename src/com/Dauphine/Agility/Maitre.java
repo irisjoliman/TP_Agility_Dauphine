@@ -1,6 +1,8 @@
 package com.Dauphine.Agility;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 public class Maitre
 {
@@ -27,6 +29,17 @@ public class Maitre
         this.age = age;
         this.nom = nom;
         this.animaux = animal;
+        for (Nac puppy : this.animaux) {
+            Maitre puppyMaitre = puppy.getMaitre();
+            if(puppyMaitre != null) {
+                if (!puppy.getMaitre().equals(this)) {
+                    puppy.setMaitre(this);
+                }
+            }
+            else{
+                puppy.setMaitre(this);
+            }
+        }
     }
 
     // ****** ACCESSEURS ****** //
@@ -40,8 +53,9 @@ public class Maitre
     public void setNom(String name){
         this.nom = name;
     }
-    public ArrayList<Nac> getAnimal(){
-        return(this.animaux);
+    public List<Nac> getAnimal(){
+        List<Nac> copyList = Collections.unmodifiableList(this.animaux);
+        return(copyList);
     }
     public void setAnimal(ArrayList<Nac> nc){
         if(nc != null) {
@@ -67,12 +81,11 @@ public class Maitre
         if (obj!= null && (obj.getClass().equals(this.getClass()))){
             if (obj instanceof Maitre){
                 Maitre maitre = (Maitre)obj;
-                if(maitre.getAnimal() == null && this.animaux==null){
-                    retour = this.nom.equals(maitre.getNom()) &&
-                            this.age == maitre.getAge();
+                if(maitre.getAnimal().size() == 0 && this.animaux.size() == 0){
+                    retour = this.nom.equals(maitre.getNom()) && this.age == maitre.getAge();
                 }
                 else{
-                    if(maitre.getAnimal() == null || this.animaux == null){
+                    if(maitre.getAnimal().size() == 0 || this.animaux.size() == 0){
                         retour = false;
                     }
                     else{

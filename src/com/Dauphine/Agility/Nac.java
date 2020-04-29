@@ -60,7 +60,11 @@ public class Nac{
     // ****** METHODES ****** //
     @Override
     public String toString(){
-        return "Je suis : " + this.nom + " et j'ai besoin de " + this.nbrHeureSommeil + " heures de sommeil.";
+        String retour =  "Je suis : " + this.nom + " et j'ai besoin de " + this.nbrHeureSommeil + " heures de sommeil.";
+        if(this.maitre != null){
+            retour = retour + "\n Mon maître s'appelle : " + this.maitre.getNom();
+        }
+        return(retour);
     }
 
     @Override
@@ -70,8 +74,7 @@ public class Nac{
             if (obj instanceof Nac){
                 Nac puppy = (Nac)obj;
                 if(puppy.getMaitre() == null && this.maitre == null){
-                    retour = this.nom.equals(puppy.getNom()) &&
-                            this.nbrHeureSommeil == puppy.getNbrDodo();
+                    retour = this.nom.equals(puppy.getNom()) && this.nbrHeureSommeil == puppy.getNbrDodo();
                 }
                 else {
                     if(puppy.getMaitre() == null || this.maitre == null){

@@ -58,6 +58,20 @@ public class MaitreTest {
         assertEquals(m1.getNom(), "Laye");
         assertEquals(m1.getAge(), 10);
         assertEquals(m1.getAnimal(), myNacs);
+        for (Nac puppy:m1.getAnimal()) {
+            assertEquals(m1, puppy.getMaitre());
+        }
+        Maitre m2 = new Maitre(10, "Simona");
+        Nac n4 = new Nac("Hamtara", 11, m1);
+        ArrayList<Nac> myNacsZam = new ArrayList<Nac>();
+        myNacsZam.add(n4);
+        Maitre m3 = new Maitre(60,"Zam", myNacsZam);
+        assertEquals(m3.getNom(), "Zam");
+        assertEquals(m3.getAge(), 60);
+        assertEquals(myNacsZam, m3.getAnimal());
+        for (Nac puppy:m3.getAnimal()) {
+            assertEquals(m3, puppy.getMaitre());
+        }
     }
 
     @Test
@@ -153,10 +167,12 @@ public class MaitreTest {
         Maitre maitre1 = new Maitre(10, "Laurent",myNacs2);
         Maitre maitre2 = new Maitre(10, "Laurent",myNacs1);
         Maitre maitre3 = new Maitre(10, "Laurent",myNacs1);
+        Maitre maitre4 = new Maitre(8, "Phil");
 
         assertEquals(true, maitre3.equals(maitre2));
         assertEquals(false, maitre0.equals(maitre1));
         assertEquals(false, maitre1.equals(maitre2));
+        assertEquals(false, maitre0.equals(maitre4));
     }
 
     @Test
@@ -182,21 +198,42 @@ public class MaitreTest {
         Nac n2 = new Nac("Hamtara", 11);
         Nac n3 = new Nac("Hamtaru", 10);
 
-        Nac n4 = new Nac("Hamtarette", 80);
+        Nac n4 = new Nac("NewAnimal", 4);
 
         ArrayList<Nac> myNacs = new ArrayList<Nac>();
         ArrayList<Nac> myNacsNew = new ArrayList<Nac>();
+        ArrayList<Nac> myNacsOne = new ArrayList<Nac>();
         myNacs.add(n1);
         myNacs.add(n2);
         myNacs.add(n3);
-
-        myNacsNew.add(n1);
-        myNacsNew.add(n2);
-        myNacsNew.add(n3);
+        myNacsNew = myNacs;
         myNacsNew.add(n4);
+        myNacsOne.add(n4);
+        Maitre maitreWithoutAnimal = new Maitre(10, "Laurent");
+        maitreWithoutAnimal.addNac(n4);
+        Maitre maitreWithAnimal = new Maitre(8, "Laura", myNacs);
+        maitreWithAnimal.addNac(n4);
+        assertEquals(myNacsNew, maitreWithAnimal.getAnimal());
+        assertEquals(myNacsOne, maitreWithoutAnimal.getAnimal());
+        for (Nac puppy:maitreWithAnimal.getAnimal()) {
+            assertEquals(maitreWithAnimal, puppy.getMaitre());
+        }
+    }
 
-        Maitre maitre2 = new Maitre(10, "Laurent",myNacs);
-        maitre2.addNac(n4);
-        assertEquals(maitre2.getAnimal(),myNacsNew);
+    @Test
+    public void isNacInAnimalsTest(){
+        Nac n1 = new Nac("Hamtaro", 12);
+        Nac n2 = new Nac("Hamtara", 11);
+        Nac n3 = new Nac("Hamtaru", 10);
+
+        Nac n4 = new Nac("NewAnimal", 4);
+
+        ArrayList<Nac> myNacs = new ArrayList<Nac>();
+        myNacs.add(n1);
+        myNacs.add(n2);
+        myNacs.add(n3);
+        Maitre maitreWithAnimal = new Maitre(8, "Laura", myNacs);
+        assertEquals(true, maitreWithAnimal.isNacInAnimals(n3));
+        assertEquals(false, maitreWithAnimal.isNacInAnimals(n4));
     }
 }

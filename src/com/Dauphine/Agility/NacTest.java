@@ -120,17 +120,23 @@ public class NacTest
         Nac n2 = new Nac("Hamtaro", 12, maitre);
         Nac n3 = new Nac("Hamtaro", 12, maitre1);
         Nac n4 = new Nac("Hamtaro", 12);
-
+        Nac n5 = new Nac("Hamtaro", 12);
+        assertEquals(true, n4.equals(n5));
         assertEquals(true, n1.equals(n2));
         assertEquals(false, n3.equals(n2));
         assertEquals(false, n2.equals(n4));
+        assertEquals(false, n4.equals(n2));
     }
 
     @Test
     public void toStringTest(){
         Maitre maitre = new Maitre(8, "Laura");
-        Nac n1 = new Nac("Hamtaro", 12, maitre);
+        Nac n1 = new Nac("Hamtaro", 12);
+        Nac n2 = new Nac("Hamtara", 10, maitre);
         assertEquals(n1.toString(), "Je suis : Hamtaro et j'ai besoin de 12 heures de sommeil.");
+        assertEquals(n2.toString(), "Je suis : Hamtara et j'ai besoin de 10 heures de sommeil.\n" +
+                " Mon maître s'appelle : Laura");
+
     }
     @Test
     public void presentationTest()
@@ -139,6 +145,8 @@ public class NacTest
         Maitre maitre = new Maitre(8, "Laura");
         assertEquals("Je m'appelle Hamtaro et je dors 12 heures.", hamtaro.presentation());
     }
+
+
 
 
 }

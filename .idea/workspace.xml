@@ -22,7 +22,11 @@
     <list default="true" id="e350f822-23e3-4e0e-8072-6704a18e84b5" name="Default Changelist" comment="100% Coverage test :)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TP_Agility_Dauphine/com/Dauphine/Agility/Maitre.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TP_Agility_Dauphine/com/Dauphine/Agility/Maitre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP_Agility_Dauphine/com/Dauphine/Agility/MaitreTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TP_Agility_Dauphine/com/Dauphine/Agility/MaitreTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP_Agility_Dauphine/com/Dauphine/Agility/NacTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TP_Agility_Dauphine/com/Dauphine/Agility/NacTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/Dauphine/Agility/Maitre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Dauphine/Agility/Maitre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Dauphine/Agility/MaitreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Dauphine/Agility/MaitreTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Dauphine/Agility/NacTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Dauphine/Agility/NacTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588158899141</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="100% Coverage test :)">
+      <created>1588179698145</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588179698145</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,22 +195,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1588174380907" />
-    <state width="1493" height="168" key="GridCell.Tab.0.bottom" timestamp="1588179639664">
+    <state width="1493" height="2" key="GridCell.Tab.0.bottom" timestamp="1588183347246">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="168" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588179639664" />
-    <state width="1493" height="168" key="GridCell.Tab.0.center" timestamp="1588179639664">
+    <state width="1493" height="2" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588183347246" />
+    <state width="1493" height="2" key="GridCell.Tab.0.center" timestamp="1588183347246">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="168" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588179639664" />
-    <state width="1493" height="168" key="GridCell.Tab.0.left" timestamp="1588179639664">
+    <state width="1493" height="2" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588183347246" />
+    <state width="1493" height="2" key="GridCell.Tab.0.left" timestamp="1588183347246">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="168" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588179639664" />
-    <state width="1493" height="168" key="GridCell.Tab.0.right" timestamp="1588179639664">
+    <state width="1493" height="2" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588183347246" />
+    <state width="1493" height="2" key="GridCell.Tab.0.right" timestamp="1588183347246">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="168" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588179639664" />
+    <state width="1493" height="2" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588183347246" />
     <state width="1493" height="260" key="GridCell.Tab.1.bottom" timestamp="1588158617346">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -220,18 +231,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="584" y="346" key="ReplaceDuplicatesPrompt/0.0.1536.824@0.0.1536.824" timestamp="1588159509981" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1588179676018">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1588179723346">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1588179676018" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1588179723346" />
     <state width="768" height="412" key="XDebugger.FullValuePopup" timestamp="1588155021653">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="768" height="412" key="XDebugger.FullValuePopup/0.0.1536.824@0.0.1536.824" timestamp="1588155021653" />
-    <state x="602" y="100" width="841" height="638" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1588160196033">
+    <state x="602" y="100" width="841" height="638" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1588181182308">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="602" y="100" width="841" height="638" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1588160196033" />
+    <state x="602" y="100" width="841" height="638" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1588181182308" />
     <state x="498" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1588144318639">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -250,7 +261,7 @@
     <state x="425" y="189" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1588155939576" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/TP_Agility_Dauphine$PackageTest.ic" NAME="PackageTest Coverage Results" MODIFIED="1588159648876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/TP_Agility_Dauphine$PackageTest.ic" NAME="PackageTest Coverage Results" MODIFIED="1588183347112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/TP_Agility_Dauphine$MaitreTest_constructeur3argumentsTest.ic" NAME="MaitreTest.constructeur3argumentsTest Coverage Results" MODIFIED="1588157301542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.Dauphine.Agility.*</FILTER>
     </SUITE>

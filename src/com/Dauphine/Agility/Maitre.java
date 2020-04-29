@@ -1,8 +1,6 @@
 package com.Dauphine.Agility;
 
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
 
 public class Maitre
 {
@@ -53,9 +51,8 @@ public class Maitre
     public void setNom(String name){
         this.nom = name;
     }
-    public List<Nac> getAnimal(){
-        List<Nac> copyList = Collections.unmodifiableList(this.animaux);
-        return(copyList);
+    public ArrayList<Nac> getAnimal(){
+        return(this.animaux);
     }
     public void setAnimal(ArrayList<Nac> nc){
         if(nc != null) {

@@ -82,7 +82,14 @@ public class MaitreTest {
 
     @Test
     public void getAgeTest() {
-        Maitre m1 = new Maitre(10, "Laye");
+        Nac n1 = new Nac("Hamtaro", 12);
+        Nac n2 = new Nac("Hamtara", 11);
+        Nac n3 = new Nac("Hamtaru", 10);
+        ArrayList<Nac> myNacs = new ArrayList<Nac>();
+        myNacs.add(n1);
+        myNacs.add(n2);
+        myNacs.add(n3);
+        Maitre m1 = new Maitre(10, "Laye",myNacs);
         assertEquals(10, m1.getAge());
     }
 

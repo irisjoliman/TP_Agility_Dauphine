@@ -11,7 +11,6 @@ public class MaitreTest {
 
     public MaitreTest() {
     }
-
     /**
      * Méthode appelée avant chaque appel de méthode de test.
      */

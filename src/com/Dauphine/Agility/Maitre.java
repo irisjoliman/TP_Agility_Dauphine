@@ -94,7 +94,6 @@ public class Maitre {
         return(false);
     }
 
-    // Préciser qu'on doit modifier la méthode promener dans le rapport
     public String promener() {
         String promenade = "";
         if(this.animaux.size()>0) {

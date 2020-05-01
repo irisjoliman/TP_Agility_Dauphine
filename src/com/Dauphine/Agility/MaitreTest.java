@@ -160,7 +160,15 @@ public class MaitreTest {
         assertEquals("Pour cette promenade, Laurent vous présente :\n" +
                 "-Je m'appelle Hamtaro et je dors 12 heures.\n" +
                 "-Je m'appelle Hamtara et je dors 11 heures.\n" +
-                "-Je m'appelle Hamtaru et je dors 10 heures.", maitre2.promener()); }
+                "-Je m'appelle Hamtaru et je dors 10 heures.", maitre2.promener());
+        Maitre maitre0 = new Maitre(10, "MadameChiante");
+        String expected = maitre0.promener();
+        assertEquals("Erreur : pas d'animal à promener", expected);
+    }
+
+
+
+
     @Test
     public void addNacTest(){
         Nac n1 = new Nac("Hamtaro", 12);

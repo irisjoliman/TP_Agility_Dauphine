@@ -1,8 +1,4 @@
 package com.Dauphine.Agility;
-
-
-import java.util.ArrayList;
-
 // La classe Nac représente un Nouvel Animal de Compagnie
 public class Nac{
 
@@ -11,30 +7,23 @@ public class Nac{
     private int nbrHeureSommeil;
     private Maitre maitre; // Un animal possède 0 ou 1 maître
 
-
     // ****** CONSTRUCTEURS ****** //
-
     // Constructeur vide
     public Nac(){
         this.nom = "animal sans nom";
         this.nbrHeureSommeil = 0;
-        this.maitre = null;
-    }
+        this.maitre = null; }
     // Ce constructeur permet de créer un animal ne possédant pas de maître à sa création
     public Nac(String nom, int nbrHeureSommeil){
         this.nom = nom;
         this.nbrHeureSommeil = nbrHeureSommeil;
-        this.maitre = null;
-    }
-
+        this.maitre = null; }
     // Ce constructeur permet de créer un animal possédant un maître à sa création
     public Nac(String nom, int nbrHeureSommeil, Maitre maitre){
         this.nom = nom;
         this.nbrHeureSommeil = nbrHeureSommeil;
         this.maitre = maitre;
-        maitre.addNac(this);
-    }
-
+        maitre.addNac(this); }
 
     // ****** ACCESSEURS ****** //
     public String getNom() {
@@ -54,18 +43,15 @@ public class Nac{
     }
     public void setMaitre(Maitre maitre){
         this.maitre = maitre;
-        maitre.addNac(this);
-    }
+        maitre.addNac(this); }
 
     // ****** METHODES ****** //
     @Override
     public String toString(){
         String retour =  "Je suis : " + this.nom + " et j'ai besoin de " + this.nbrHeureSommeil + " heures de sommeil.";
         if(this.maitre != null){
-            retour = retour + "\n Mon maître s'appelle : " + this.maitre.getNom();
-        }
-        return(retour);
-    }
+            retour = retour + "\n Mon maître s'appelle : " + this.maitre.getNom(); }
+        return(retour); }
 
     @Override
     public boolean equals(Object obj){
@@ -83,10 +69,7 @@ public class Nac{
                     else {
                         retour = this.nom.equals(puppy.getNom()) &&
                                 this.nbrHeureSommeil == puppy.getNbrDodo() && this.maitre.equals(puppy.getMaitre());
-                    }
-                }
-            }
-        }
+                    } } } }
         return(retour);
     }
 

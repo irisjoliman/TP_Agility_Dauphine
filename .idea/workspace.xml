@@ -19,30 +19,76 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e350f822-23e3-4e0e-8072-6704a18e84b5" name="Default Changelist" comment="100% Coverage test :)">
+    <list default="true" id="e350f822-23e3-4e0e-8072-6704a18e84b5" name="Default Changelist" comment="Add functionnal Test">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/io_cucumber_cucumber_java_5_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/io_cucumber_cucumber_junit_5_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/UserStory001.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/UserStory002.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/resources.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Dauphine/Agility/FunctionnalTestRunnerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/junit-4.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/apiguardian-api-1.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/cucumber-core-5.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/cucumber-expressions-8.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/cucumber-gherkin-5.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/cucumber-gherkin-vintage-5.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/cucumber-java-5.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/cucumber-junit-5.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/cucumber-plugin-5.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/datatable-3.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/docstring-5.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/junit-4.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/tag-expressions-2.0.4.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_Agility_Dauphine.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TP_Agility_Dauphine.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Agilité/com/Dauphine/Agility/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Agilité/com/Dauphine/Agility/Maitre.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Agilité/com/Dauphine/Agility/MaitreTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Agilité/com/Dauphine/Agility/Nac.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Agilité/com/Dauphine/Agility/NacTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TP_Agility_Dauphine/com/Dauphine/Agility/Maitre.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TP_Agility_Dauphine/com/Dauphine/Agility/Maitre.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TP_Agility_Dauphine/com/Dauphine/Agility/MaitreTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TP_Agility_Dauphine/com/Dauphine/Agility/MaitreTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP_Agility_Dauphine/com/Dauphine/Agility/Nac.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TP_Agility_Dauphine/com/Dauphine/Agility/Nac.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TP_Agility_Dauphine/com/Dauphine/Agility/NacTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TP_Agility_Dauphine/com/Dauphine/Agility/NacTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP_Agility_Dauphine/com/Dauphine/Agility/java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP_Agility_Dauphine/util.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/Dauphine/Agility/Maitre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Dauphine/Agility/Maitre.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/Dauphine/Agility/MaitreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Dauphine/Agility/MaitreTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Dauphine/Agility/Nac.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Dauphine/Agility/Nac.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/Dauphine/Agility/NacTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Dauphine/Agility/NacTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Dauphine/Agility/java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1bCkYOQZVCaxWQoVvSxNhs7SdUJ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path" value="C:\Users\irisj\Documents\Dauphine\Agilité\Project\TP_Agility_Dauphine\src\lib" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
@@ -50,9 +96,46 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/out/production/TP_Agility_Dauphine/com/Dauphine/Agility" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.4393116" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="com.Dauphine.Agility" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\irisj\Documents\Dauphine\Agilité\Project\TP_Agility_Dauphine\out\production\TP_Agility_Dauphine\com\Dauphine\Agility" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.Dauphine.Agility" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\irisj\Documents\Dauphine\Agilité\Project\TP_Agility_Dauphine\src\com\Dauphine\Agility" />
+      <recent name="C:\Users\irisj\Documents\Dauphine\Agilité\Project\TP_Agility_Dauphine\src" />
+      <recent name="C:\Users\irisj\Documents\Dauphine\Agilité\Project\TP_Agility_Dauphine\resources" />
+    </key>
   </component>
   <component name="RunManager" selected="JUnit.PackageTest">
-    <configuration name="MaitreTest.addNacTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FunctionnalTestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TP_Agility_Dauphine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Dauphine.Agility" />
+      <option name="MAIN_CLASS_NAME" value="com.Dauphine.Agility.FunctionnalTestRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FunctionnalTestRunnerTest.xTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TP_Agility_Dauphine" />
       <extension name="coverage">
         <pattern>
@@ -61,8 +144,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.Dauphine.Agility" />
-      <option name="MAIN_CLASS_NAME" value="com.Dauphine.Agility.MaitreTest" />
-      <option name="METHOD_NAME" value="addNacTest" />
+      <option name="MAIN_CLASS_NAME" value="com.Dauphine.Agility.FunctionnalTestRunnerTest" />
+      <option name="METHOD_NAME" value="xTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -72,7 +155,7 @@
       <module name="TP_Agility_Dauphine" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Dauphine.Agility.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,7 +171,7 @@
       <module name="TP_Agility_Dauphine" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Dauphine.Agility.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,7 +184,6 @@
       </method>
     </configuration>
     <configuration name="PackageTest" type="JUnit" factoryName="JUnit">
-      <module name="TP_Agility_Dauphine" />
       <useClassPathOnly />
       <option name="PACKAGE_NAME" value="com.Dauphine.Agility" />
       <option name="MAIN_CLASS_NAME" value="" />
@@ -109,21 +191,43 @@
       <option name="TEST_OBJECT" value="package" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/out/production/TP_Agility_Dauphine/com/Dauphine/Agility" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US001Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TP_Agility_Dauphine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Dauphine.Agility" />
+      <option name="MAIN_CLASS_NAME" value="com.Dauphine.Agility.US001Test" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="JUnit.PackageTest" />
-      <item itemvalue="JUnit.MaitreTest.addNacTest" />
       <item itemvalue="JUnit.MaitreTest.isNacInAnimalsTest" />
       <item itemvalue="JUnit.MaitreTest.constructeur3argumentsTest" />
+      <item itemvalue="JUnit.US001Test" />
+      <item itemvalue="JUnit.FunctionnalTestRunner" />
+      <item itemvalue="JUnit.FunctionnalTestRunnerTest.xTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FunctionnalTestRunnerTest.xTest" />
+        <item itemvalue="JUnit.FunctionnalTestRunner" />
+        <item itemvalue="JUnit.US001Test" />
         <item itemvalue="JUnit.MaitreTest.constructeur3argumentsTest" />
         <item itemvalue="JUnit.MaitreTest.isNacInAnimalsTest" />
-        <item itemvalue="JUnit.MaitreTest.addNacTest" />
       </list>
     </recent_temporary>
   </component>
@@ -172,81 +276,108 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Modifications appels circulaires" />
     <MESSAGE value="100% Coverage test :)" />
-    <option name="LAST_COMMIT_MESSAGE" value="100% Coverage test :)" />
+    <MESSAGE value="Add functionnal Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add functionnal Test" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588174464528">
+    <state x="0" y="0" key="#Project_Structure" timestamp="1588269575620">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1588174464528" />
-    <state x="498" y="188" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1588143567563">
+    <state x="0" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1588269575620" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588342056915">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="498" y="188" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1588143567563" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1588342056915" />
+    <state x="761" y="217" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588258659737">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="761" y="217" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1588258659737" />
+    <state x="498" y="188" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1588341903332">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="188" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1588341903332" />
+    <state x="353" y="336" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1588341316823">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="353" y="336" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1588341316823" />
+    <state x="543" y="277" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1588341861900">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="543" y="277" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1588341861900" />
+    <state x="552" y="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1588341321380">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="552" y="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1588341321380" />
     <state x="637" y="162" key="EnvironmentVariablesDialog" timestamp="1588174334088">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="637" y="162" key="EnvironmentVariablesDialog/0.0.1536.824@0.0.1536.824" timestamp="1588174334088" />
-    <state x="548" y="167" key="FileChooserDialogImpl" timestamp="1588174380907">
+    <state x="548" y="167" key="FileChooserDialogImpl" timestamp="1588341470550">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="548" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1588174380907" />
-    <state width="1493" height="2" key="GridCell.Tab.0.bottom" timestamp="1588183347246">
+    <state x="548" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1588341470550" />
+    <state width="1493" height="502" key="GridCell.Tab.0.bottom" timestamp="1588344286650">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588183347246" />
-    <state width="1493" height="2" key="GridCell.Tab.0.center" timestamp="1588183347246">
+    <state width="1493" height="502" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588344286650" />
+    <state width="1493" height="502" key="GridCell.Tab.0.center" timestamp="1588344286649">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588183347246" />
-    <state width="1493" height="2" key="GridCell.Tab.0.left" timestamp="1588183347246">
+    <state width="1493" height="502" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588344286649" />
+    <state width="1493" height="502" key="GridCell.Tab.0.left" timestamp="1588344286649">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588183347246" />
-    <state width="1493" height="2" key="GridCell.Tab.0.right" timestamp="1588183347246">
+    <state width="1493" height="502" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588344286649" />
+    <state width="1493" height="502" key="GridCell.Tab.0.right" timestamp="1588344286650">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588183347246" />
-    <state width="1493" height="260" key="GridCell.Tab.1.bottom" timestamp="1588158617346">
+    <state width="1493" height="502" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588344286650" />
+    <state width="1493" height="260" key="GridCell.Tab.1.bottom" timestamp="1588341026399">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588158617346" />
-    <state width="1493" height="260" key="GridCell.Tab.1.center" timestamp="1588158617346">
+    <state width="1493" height="260" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588341026399" />
+    <state width="1493" height="260" key="GridCell.Tab.1.center" timestamp="1588341026398">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1588158617346" />
-    <state width="1493" height="260" key="GridCell.Tab.1.left" timestamp="1588158617346">
+    <state width="1493" height="260" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1588341026398" />
+    <state width="1493" height="260" key="GridCell.Tab.1.left" timestamp="1588341026398">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1588158617346" />
-    <state width="1493" height="260" key="GridCell.Tab.1.right" timestamp="1588158617346">
+    <state width="1493" height="260" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1588341026398" />
+    <state width="1493" height="260" key="GridCell.Tab.1.right" timestamp="1588341026399">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1588158617346" />
+    <state width="1493" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1588341026399" />
     <state x="584" y="346" key="ReplaceDuplicatesPrompt" timestamp="1588159509981">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="584" y="346" key="ReplaceDuplicatesPrompt/0.0.1536.824@0.0.1536.824" timestamp="1588159509981" />
+    <state x="159" y="0" width="1314" height="824" key="SettingsEditor" timestamp="1588341550687">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="159" y="0" width="1314" height="824" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1588341550687" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1588179723346">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1588179723346" />
-    <state width="768" height="412" key="XDebugger.FullValuePopup" timestamp="1588155021653">
+    <state width="768" height="412" key="XDebugger.FullValuePopup" timestamp="1588338386734">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="768" height="412" key="XDebugger.FullValuePopup/0.0.1536.824@0.0.1536.824" timestamp="1588155021653" />
+    <state width="768" height="412" key="XDebugger.FullValuePopup/0.0.1536.824@0.0.1536.824" timestamp="1588338386734" />
     <state x="602" y="100" width="841" height="638" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1588181182308">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="602" y="100" width="841" height="638" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1588181182308" />
-    <state x="498" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1588144318639">
+    <state x="787" y="63" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1588341539239">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="498" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1588144318639" />
+    <state x="787" y="63" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1588341539239" />
     <state x="762" y="0" width="781" height="830" key="dock-window-1" timestamp="1588158385679">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -255,15 +386,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="874" y="71" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1588159464493" />
-    <state x="425" y="189" key="run.anything.popup" timestamp="1588155939576">
+    <state x="133" y="65" key="new project wizard" timestamp="1588269553151">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="189" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1588155939576" />
+    <state x="133" y="65" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1588269553151" />
+    <state x="521" y="333" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1588336534744">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="521" y="333" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1588336534744" />
+    <state x="425" y="189" key="run.anything.popup" timestamp="1588336649551">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="189" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1588336649551" />
+    <state x="702" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1588258388232">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="702" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1588258388232" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/TP_Agility_Dauphine$PackageTest.ic" NAME="PackageTest Coverage Results" MODIFIED="1588183347112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/TP_Agility_Dauphine$PackageTest.ic" NAME="PackageTest Coverage Results" MODIFIED="1588344149311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/TP_Agility_Dauphine$MaitreTest_constructeur3argumentsTest.ic" NAME="MaitreTest.constructeur3argumentsTest Coverage Results" MODIFIED="1588157301542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.Dauphine.Agility.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/TP_Agility_Dauphine$TestRunner.ic" NAME="TestRunner Coverage Results" MODIFIED="1588342421611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>.*</FILTER>
     </SUITE>
   </component>
 </project>
